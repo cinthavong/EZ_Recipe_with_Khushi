@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/salad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="590dp"
+        android:text="Cannellini Bean and Asparagus Salad with Mushrooms"
+        android:textColor="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/salad_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="181dp"
+        android:maxLines="10"
+        android:text="Ingredients \n\n 1 handful dried curry leaves \n
+1/4 cup fresh tarragon \n 1 clove garlic \n 3 lemon juice \n
+1 tsp lemon zest \n 1/2 cup olive oil \n 2 tsps olive oil \n
+dash of black pepper"
+        android:textColor="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/salad_image"
+        android:layout_width="305dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/salad" />
+
+    <ImageButton
+        android:id="@+id/favoriteButton"
+        android:layout_width="62dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="646dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
